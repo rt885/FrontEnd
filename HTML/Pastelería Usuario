@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteline</title>
+</head>
+<body>
+    <h1>Bienvendo a PasteLine</h1>
+    <h2>La mejor opción de pedir pasteles de manera online</h2>
+    <br>
+
+    <h2>Sabores de pasteles</h2>
+    <p>A continuación, puedes observar los diferentes sabores de pasteles que manejamos junto a sus precios:</p>
+    <table width =" 200 "border =" 2 "cellpadding =" 0 "cellspacing =" 0 "BorderColor =" # 000000 ">
+        <tr>
+            <th><strong>Sabor</strong></th>
+            <th><strong>Precio</strong></th>
+        </tr>
+        <tr>
+            <td>Vainilla</td>
+            <td>$199</td>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+            <td>$199</td>
+        </tr>
+        <tr>
+            <td>Tres Leches</td>
+            <td>$249</td>
+        </tr>
+        <tr>
+            <td>Chocoflan</td>
+            <td>$269</td>
+        </tr>
+        <tr>
+            <td>Pay de limón</td>
+            <td>$299</td>
+        </tr>
+    </table>
+    <br>
+
+    <h2>Adornos</h2>
+    <p>A continuación, le mostramnos los diversos adornos que manejamos junto a sus precios</p>
+    <table width =" 200 "border =" 2 "cellpadding =" 0 "cellspacing =" 0 "BorderColor =" # 000000 ">
+        <tr>
+            <th><strong>Adorno</strong></th>
+            <th><strong>Precio</strong></th>
+        </tr>
+        <tr>
+            <td>Fresas</td>
+            <td>$5 c/u</td>
+        </tr>
+        <tr>
+            <td>Plátano</td>
+            <td>$10 c/u</td>
+        </tr>
+        <tr>
+            <td>Manzana</td>
+            <td>$10 c/u</td>
+        </tr>
+        <tr>
+            <td>Galleta Oreo</td>
+            <td>$6 c/u</td>
+        </tr>
+        <tr>
+            <td>Nutella</td>
+            <td>$15</td>
+        </tr>
+        <tr>
+            <td>Galleta María</td>
+            <td>$3 c/u</td>
+        </tr>
+        <tr>
+            <td>Cajeta</td>
+            <td>$15</td>
+        </tr>
+        <tr>
+            <td>Adorno feliz cumpleaños</td>
+            <td>$30</td>
+        </tr>
+    </table>
+    <br>
+
+    <h2>Finalización de pedido</h2>
+    <p>Que tal va con su pedido, si desea ordenar en este momento, apoyenos pimero con sus datos:</p>
+    <br>
+    <h2>Datos de comprador</h2>
+    <p>Cual es su nombre?</p>
+    <input type="text" placeholder="Nombre">
+    <p>Cual es su número de teléfono?</p>
+    <input type="text" placeholder="Teléfono">
+    <p>Cual es su Email?</p>
+    <input type="text" placeholder="Email">
+    <p>Cual es su calle y número?</p>
+    <input type="text" placeholder="Calle y número">
+    <p>Cual es su Código Postal?</p>
+    <input type="text" placeholder="C.P.">
+    <p>Cual es su colonia?</p>
+    <input type="text" placeholder="Colonia">
+    <p>Cual es su Ciudad?</p>
+    <input type="text" placeholder="Ciudad">
+    <br>
+    <p>Una vez completado los datos, haga clic en el boton "enviar"</p>
+    <button type="submit">Enviar</button>
+    <br>
+    <br>
+
+    <h2>Selección de sabores</h2>
+    <p>Seleccione los sabores de pasteles que desa comprar</p>
+    <label for="Vainilla"><input id="Vainilla" type="checkbox" name="pasteles"> Vainilla</label>
+    <br>
+    <label for="Chocolate"><input id="Chocolate" type="checkbox" name="pasteles"> Chocolate</label>
+    <br>
+    <label for="Tres Leches"><input id="Tres Leches" type="checkbox" name="pasteles"> Tres Leches</label>
+    <br>
+    <label for="Chocoflan"><input id="Chocoflan" type="checkbox" name="pasteles"> Chocoflan</label>
+    <br>
+    <label for="Pay de limón"><input id="Pay de limón" type="checkbox" name="pasteles"> Pay de limón</label>
+    <br>
+    <p>Una vez seleccionados los pasteles, haga clic en el boton "enviar"</p>
+    <button type="submit">Enviar</button>
+    <br>
+
+    <h2>Selección de adornos</h2>
+    <p>Seleccione los adornos de pasteles que desa comprar</p>
+    <label for="Fresas"><input id="Fresas" type="checkbox" name="adornos"> Fresas</label>
+    <br>
+    <label for="Plátano"><input id="Plátano" type="checkbox" name="adornos"> Plátano</label>
+    <br>
+    <label for="Manzana"><input id="Manzana" type="checkbox" name="adornos"> Manzana</label>
+    <br>
+    <label for="Galleta Oreo"><input id="Galleta Oreo" type="checkbox" name="adornos"> Galleta Oreo</label>
+    <br>
+    <label for="Nutella"><input id="Nutella" type="checkbox" name="adornos"> Nutella</label>
+    <br>
+    <label for="Galleta María"><input id="Galleta María" type="checkbox" name="adornos"> Galleta María</label>
+    <br>
+    <label for="Cajeta"><input id="Cajeta" type="checkbox" name="adornos"> Cajeta</label>
+    <br>
+    <label for="Feliz cumpleaños"><input id="Feliz cumpleaños" type="checkbox" name="adornos"> Feliz cumpleaños</label>
+    <br>
+    <p>Una vez seleccionados los pasteles, haga clic en el boton "enviar"</p>
+    <button type="submit">Enviar</button>
+    <br>
+
+    <h3>Contacto</h3>
+    <p>Dirección: Calle Rio Misisipi 159, Colonia Del Valle, SPGG, Monterrey, Nuevo León</p>
+    <p>Teléfono: 8156783545</p>
+    <p>Horarios de atención: Lunes a Viernes: 9am - 6pm. Sábado: 9am - 1pm. Domingo: Cerrado.
+    
+</body>
+</html>
