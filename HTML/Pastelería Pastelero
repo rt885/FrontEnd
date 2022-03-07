@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal PasteLine</title>
+</head>
+<body>
+    <h1>Portal Pastelero</h1>
+    <p>Buen día pastelero, aquí encontrará el stock de los sabores, adornos y  pedidios realizados.</p>
+    <br>
+
+    <h2>Stock de sabores</h2>
+    <table width =" 200 "border =" 2 "cellpadding =" 0 "cellspacing =" 0 "BorderColor =" # 000000 ">
+        <tr>
+            <th><strong>Sabor</strong></th>
+            <th><strong>Cantidad</strong></th>
+        </tr>
+        <tr>
+            <td>Vainilla</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Tres Leches</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Chocoflan</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>Pay de limón</td>
+            <td>8</td>
+        </tr>
+    </table>
+    <br>
+
+    <h2>Stock de adornos</h2>
+    <table width =" 200 "border =" 2 "cellpadding =" 0 "cellspacing =" 0 "BorderColor =" # 000000 ">
+        <tr>
+            <th><strong>Adorno</strong></th>
+            <th><strong>Cantidad</strong></th>
+        </tr>
+        <tr>
+            <td>Fresas</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>Plátano</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Manzana</td>
+            <td>58</td>
+        </tr>
+        <tr>
+            <td>Galleta Oreo</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td>Bote Nutella</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Paquete de Galletas María</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Bote de Cajeta</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Adorno feliz cumpleaños</td>
+            <td>29</td>
+        </tr>
+    </table>
+    <br>
+
+    <h2>Pedidos realizados</h2>
+    <table width =" 200 " border="2"cellpadding =" 0 "cellspacing =" 0 "BorderColor =" # 000000 ">
+        <tr>
+            <th>No. Pedido</th>
+            <th>Sabores de pastel</th>
+            <th>Adornos</th>
+            <th>Cliente</th>
+            <th>Dirección</th>
+            <th>Teléfono</th>
+        </tr>
+        <tr>
+            <td>#10001</td>
+            <td>Vainilla</td>
+            <td>Fresas, Plátano</td>
+            <td>Jose Hernandez</td>
+            <td>Calle Benito Juares #4055</td>
+            <td>2506589125</td>
+        </tr>
+        <tr>
+            <td>#10002</td>
+            <td>Vainilla, Chocolate</td>
+            <td>Fresas, Nutella, Feliz cumpleaños</td>
+            <td>Angela Vázquez</td>
+            <td>Calle Maurice Ravel #89</td>
+            <td>8168245697</td>
+        </tr>
+        <tr>
+            <td>#10003</td>
+            <td>Tres leches, Vainilla</td>
+            <td>Nutella, Plátano, Manzana</td>
+            <td>Rodrigo Valenzuela</td>
+            <td>Calle Rio Potomac #645</td>
+            <td>6983457891</td>
+        </tr>
+        <tr>
+            <td>#10004</td>
+            <td>Tres leches, Chocolate</td>
+            <td>Galletas Oreo</td>
+            <td>Ariana Fernandez</td>
+            <td>Calle Hacienda del toro #8941</td>
+            <td>7894875631</td>
+        </tr>
+        <tr>
+            <td>#10005</td>
+            <td>Pay de limón</td>
+            <td>Galletas María</td>
+            <td>Santiago Gonzales</td>
+            <td>Calle 9 de Noviembre #789</td>
+            <td>1689453612</td>
+        </tr>        
+    </table>
+</body>
+</html>
