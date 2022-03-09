@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TacoNauta</title>
+</head>
+<body>
+    <img src="./assets/img/TACONAUTA LOGO.jpg" alt="taconauta" width="150px">
+    <h1>Bienvenidos TacoNautas</h1>
+
+    <h2>Menú de tacos</h2>
+    <p>Taco de Mercuio (Pastor) ................ $14</p>
+    <p>Taco de Venus (Suadero) ................. $14</p>
+    <p>Taco de Tierra (Tripa) .................. $14</p>
+    <p>Taco de Marte (Chorizo) ................. $14</p>
+    <p>Taco de Jupiter (Lengua) ................ $14</p>
+    <p>Taco de Saturno (Maciza) ................ $14</p>
+    <p>Taco de Urano (Cachete) ................. $14</p>
+    <p>Taco de Neptuno (Ojo) ................... $14</p>
+    <p>Taco de Plutón (Campechano) ............. $14</p>
+
+    <hr>
+
+    <h2>Paquetes</h2>
+    <dl>
+        <dt>Paquete Galaxia</dt>
+        <dd>- 50 tacos a elegir con salsas y verdura aparte</dd>
+        <dt>Paquete Planeta</dt>
+        <dd>- 25 tacos a elegir con salsas y verdura aparte</dd>
+        <dt>Paquete Asteroide</dt>
+        <dd>- 12  tacos a elegir con salsas y verdura aparte</dd>
+        <dt>Paquete Luna</dt>
+        <dd>- 5 tacos a elegir con salsas y verdura aparte</dd>
+    </dl>
+
+    <hr>
+
+    <h2>Bebidas</h2>
+    <ul>
+        <li>Refrescos
+            <ul>
+                <li>Coca Cola</li>
+                <li>Fanta</li>
+                <li>Sprite</li>
+                <li>Manzana</li>
+                <li>Sangría</li>
+                <li>Mango</li>
+            </ul>
+        </li>
+        <li>Aguas Frescas
+            <ul>
+                <li>Limón</li>
+                <li>Orchata</li>
+                <li>Jamaica</li>
+            </ul>
+        </li>
+        <li>Cervezas
+            <ul>
+                <li>Tecate</li>
+                <li>Ultra</li>
+                <li>Modelo</li>
+                <li>Miller Light</li>
+            </ul>
+        </li>
+    </ul>
+
+    <a href="./Pedido_TacoNauta.html">
+        <input type="button" value="Hacer Pedido">
+    </a>
+    <br><br>
+    
+
+</body>
+</html>
